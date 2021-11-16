@@ -1,0 +1,8 @@
+version: 2
+updates:
+  - package-ecosystem: docker
+    directory: "/src/assembly/docker"
+    schedule:
+      interval: daily
+      time: "01:00"
+    open-pull-requests-limit: 10
